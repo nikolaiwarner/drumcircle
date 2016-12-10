@@ -66,8 +66,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\OSPNative\scenes\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\OSPNative\scripts\ONSPAudioSource.cs" />
+    <Compile Include="Assets\OSPNative\scripts\ONSPVersion.cs" />
+    <Compile Include="Assets\OSPNative\scripts\helpers\ONSPReflectionZone.cs" />
+    <Compile Include="Assets\Scripts\Player\DrumInput.cs" />
+    <Compile Include="Assets\Scripts\Player\OLD_DrumInputTest_Component.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\World\AVEffect_Sphere_1.cs" />
+    <Compile Include="Assets\Scripts\World\AVEffect_Sphere_2.cs" />
+    <Compile Include="Assets\Scripts\World\Timer_TurnOffObject.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -111,6 +119,12 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Cutout Wireframe.shader" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Cutout Wireframe.shader" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Wireframe.shader" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe Functions.cginc" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe.shader" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\Wireframe_VertOffset.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
